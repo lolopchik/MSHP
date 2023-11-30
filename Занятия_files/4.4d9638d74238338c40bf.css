@@ -1,0 +1,27 @@
+.v-note-wrapper.markdown-body {
+  min-height: 50px;
+  z-index: 100;
+}
+pre.auto-textarea-block {
+  border: none;
+}
+pre.auto-textarea-block + textarea {
+  box-shadow: none;
+}
+
+.shp_croppie.croppie-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-content: normal;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: auto;
+}
+.shp_croppie.croppie-container .cr-boundary, .shp_croppie.croppie-container .cr-slider-wrap {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+
+/*# sourceMappingURL=4.4d9638d74238338c40bf.css.map*/
