@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[81],{2909:function(t,e,n){"use strict";n.r(e);var i={name:"ClientPupilRoot"},r=n(3),s=Object(r.a)(i,(function(){var t=this.$createElement;return(this._self._c||t)("router-view",this._b({},"router-view",this.$attrs,!1))}),[],!1,null,null,null);e.default=s.exports}}]);
+//# sourceMappingURL=81.81.c7407422e460770e8f9e.js.map

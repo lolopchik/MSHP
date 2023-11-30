@@ -1,0 +1,39 @@
+.shp-full-screen {
+    position: fixed;
+    z-index: 1045;
+    top: 0;
+    width: 100%;
+    lefT: 0;
+}
+.shp-full-screen-only {
+  display: none;
+}
+
+.shp-full-screen .shp-full-screen-only {
+  display: block;
+}
+.shp-full-screen .full-screen-item {
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+
+}
+.shp-full-screen .full-screen-item .embed-responsive {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.shp-full-screen .panel-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+/*# sourceMappingURL=43.2d38e7cdeaee8972cc4f.css.map*/

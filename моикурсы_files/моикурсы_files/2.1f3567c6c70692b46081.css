@@ -1,0 +1,1267 @@
+.pyrobo__console{font-family:Consolas,Liberation Mono,Courier,monospace}.pyrobo__console__output{display:block}.pyrobo__btn{display:inline-block;margin-bottom:0;font-weight:400;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;padding:6px 12px;font-size:14px;line-height:1.42857;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.pyrobo__btn.active.focus,.pyrobo__btn.active:focus,.pyrobo__btn.focus,.pyrobo__btn:active.focus,.pyrobo__btn:active:focus,.pyrobo__btn:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.pyrobo__btn.focus,.pyrobo__btn:focus,.pyrobo__btn:hover{color:#333;text-decoration:none}.pyrobo__btn.active,.pyrobo__btn:active{background-image:none;outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.pyrobo__btn.disabled,.pyrobo__btn[disabled]{cursor:not-allowed;filter:alpha(opacity=65);opacity:.65;-webkit-box-shadow:none;box-shadow:none}.pyrobo__btn{color:#333;background-color:#fff;border-color:#ccc}.pyrobo__btn.focus,.pyrobo__btn:focus{color:#333;background-color:#e6e6e6;border-color:#8c8c8c}.pyrobo__btn:hover{color:#333;background-color:#e6e6e6;border-color:#adadad}.open>.pyrobo__btn.dropdown-toggle,.pyrobo__btn.active,.pyrobo__btn:active{color:#333;background-color:#e6e6e6;background-image:none;border-color:#adadad}.open>.pyrobo__btn.dropdown-toggle.focus,.open>.pyrobo__btn.dropdown-toggle:focus,.open>.pyrobo__btn.dropdown-toggle:hover,.pyrobo__btn.active.focus,.pyrobo__btn.active:focus,.pyrobo__btn.active:hover,.pyrobo__btn:active.focus,.pyrobo__btn:active:focus,.pyrobo__btn:active:hover{color:#333;background-color:#d4d4d4;border-color:#8c8c8c}.pyrobo__btn.disabled.focus,.pyrobo__btn.disabled:focus,.pyrobo__btn.disabled:hover,.pyrobo__btn[disabled].focus,.pyrobo__btn[disabled]:focus,.pyrobo__btn[disabled]:hover,fieldset[disabled] .pyrobo__btn.focus,fieldset[disabled] .pyrobo__btn:focus,fieldset[disabled] .pyrobo__btn:hover{background-color:#fff;border-color:#ccc}.pyrobo__btn .badge{color:#fff;background-color:#333}a.pyrobo__btn.disabled,fieldset[disabled] a.pyrobo__btn{pointer-events:none}.pyrobo__canvas{overflow-x:auto;overflow-y:auto;max-height:600px;margin-bottom:8px}.pyrobo__toolbar{clear:both}.pyrobo__buttons{display:inline-block;margin-bottom:8px;margin-left:-4px}.pyrobo__buttons:after,.pyrobo__buttons:before{display:table;content:" "}.pyrobo__buttons:after{clear:both}.pyrobo__buttons>.pyrobo__btn{float:left;margin-left:4px}.pyrobo__icon{background-size:100% auto;width:.875em;height:1em;overflow:visible;vertical-align:-.125em;display:inline-block}.pyrobo__error{color:#b94a48}.pyrobo__success{color:#468847}.pyrobo__icon__play{background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z'/%3E%3C/svg%3E") 50%/contain no-repeat}.pyrobo__icon__pause{background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='currentColor' d='M144 479H48c-26.5 0-48-21.5-48-48V79c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48zm304-48V79c0-26.5-21.5-48-48-48h-96c-26.5 0-48 21.5-48 48v352c0 26.5 21.5 48 48 48h96c26.5 0 48-21.5 48-48z'/%3E%3C/svg%3E") 50%/contain no-repeat}.pyrobo__icon__repeat{background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='currentColor' d='M512 256c0 88.224-71.775 160-160 160H170.067l34.512 32.419c9.875 9.276 10.119 24.883.539 34.464l-10.775 10.775c-9.373 9.372-24.568 9.372-33.941 0l-92.686-92.686c-9.373-9.373-9.373-24.568 0-33.941l92.686-92.686c9.373-9.373 24.568-9.373 33.941 0l10.775 10.775c9.581 9.581 9.337 25.187-.539 34.464L170.067 352H352c52.935 0 96-43.065 96-96 0-13.958-2.996-27.228-8.376-39.204-4.061-9.039-2.284-19.626 4.723-26.633l12.183-12.183c11.499-11.499 30.965-8.526 38.312 5.982C505.814 205.624 512 230.103 512 256zM72.376 295.204C66.996 283.228 64 269.958 64 256c0-52.935 43.065-96 96-96h181.933l-34.512 32.419c-9.875 9.276-10.119 24.883-.539 34.464l10.775 10.775c9.373 9.372 24.568 9.372 33.941 0l92.686-92.686c9.373-9.373 9.373-24.568 0-33.941l-92.686-92.686c-9.373-9.373-24.568-9.373-33.941 0L306.882 29.12c-9.581 9.581-9.337 25.187.539 34.464L341.933 96H160C71.775 96 0 167.776 0 256c0 25.897 6.186 50.376 17.157 72.039 7.347 14.508 26.813 17.481 38.312 5.982l12.183-12.183c7.008-7.008 8.786-17.595 4.724-26.634z'/%3E%3C/svg%3E") 50%/contain no-repeat}.pyrobo__icon__step-forward{background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='currentColor' d='M384 44v424c0 6.6-5.4 12-12 12h-48c-6.6 0-12-5.4-12-12V291.6l-195.5 181C95.9 489.7 64 475.4 64 448V64c0-27.4 31.9-41.7 52.5-24.6L312 219.3V44c0-6.6 5.4-12 12-12h48c6.6 0 12 5.4 12 12z'/%3E%3C/svg%3E") 50%/contain no-repeat}.pyrobo__icon__forward{background:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='currentColor' d='M500.5 231.4l-192-160C287.9 54.3 256 68.6 256 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2zm-256 0l-192-160C31.9 54.3 0 68.6 0 96v320c0 27.4 31.9 41.8 52.5 24.6l192-160c15.3-12.8 15.3-36.4 0-49.2z'/%3E%3C/svg%3E") 50%/contain no-repeat}
+/**
+    Support for SASS is deprecated as of v3.18.
+
+    The files remain here if your build is dependent on them
+    but they will not receive updates in future releases. All
+    SASS variables have been translated into CSS variables, so
+    migration should be quite simple if you'd like to move over.
+
+    In v4, these files will be removed.
+ */
+.v-select {
+  position: relative;
+  font-family: inherit; }
+
+.v-select,
+.v-select * {
+  box-sizing: border-box; }
+
+/* KeyFrames */
+@-webkit-keyframes vSelectSpinner {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+@keyframes vSelectSpinner {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+/* Dropdown Default Transition */
+.vs__fade-enter-active,
+.vs__fade-leave-active {
+  pointer-events: none;
+  transition: opacity 0.15s cubic-bezier(1, 0.5, 0.8, 1); }
+
+.vs__fade-enter,
+.vs__fade-leave-to {
+  opacity: 0; }
+
+/** Component States */
+/*
+ * Disabled
+ *
+ * When the component is disabled, all interaction
+ * should be prevented. Here we modify the bg color,
+ * and change the cursor displayed on the interactive
+ * components.
+ */
+.vs--disabled .vs__dropdown-toggle,
+.vs--disabled .vs__clear,
+.vs--disabled .vs__search,
+.vs--disabled .vs__selected,
+.vs--disabled .vs__open-indicator {
+  cursor: not-allowed;
+  background-color: #f8f8f8; }
+
+/*
+ *  RTL - Right to Left Support
+ *
+ *  Because we're using a flexbox layout, the `dir="rtl"`
+ *  HTML attribute does most of the work for us by
+ *  rearranging the child elements visually.
+ */
+.v-select[dir="rtl"] .vs__actions {
+  padding: 0 3px 0 6px; }
+
+.v-select[dir="rtl"] .vs__clear {
+  margin-left: 6px;
+  margin-right: 0; }
+
+.v-select[dir="rtl"] .vs__deselect {
+  margin-left: 0;
+  margin-right: 2px; }
+
+.v-select[dir="rtl"] .vs__dropdown-menu {
+  text-align: right; }
+
+/**
+    Dropdown Toggle
+
+    The dropdown toggle is the primary wrapper of the component. It
+    has two direct descendants: .vs__selected-options, and .vs__actions.
+
+    .vs__selected-options holds the .vs__selected's as well as the
+    main search input.
+
+    .vs__actions holds the clear button and dropdown toggle.
+ */
+.vs__dropdown-toggle {
+  appearance: none;
+  display: flex;
+  padding: 0 0 4px 0;
+  background: none;
+  border: 1px solid rgba(60, 60, 60, 0.26);
+  border-radius: 4px;
+  white-space: normal; }
+
+.vs__selected-options {
+  display: flex;
+  flex-basis: 100%;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  padding: 0 2px;
+  position: relative; }
+
+.vs__actions {
+  display: flex;
+  align-items: center;
+  padding: 4px 6px 0 3px; }
+
+/* Dropdown Toggle States */
+.vs--searchable .vs__dropdown-toggle {
+  cursor: text; }
+
+.vs--unsearchable .vs__dropdown-toggle {
+  cursor: pointer; }
+
+.vs--open .vs__dropdown-toggle {
+  border-bottom-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.vs__open-indicator {
+  fill: rgba(60, 60, 60, 0.5);
+  transform: scale(1);
+  transition: transform 150ms cubic-bezier(1, -0.115, 0.975, 0.855);
+  transition-timing-function: cubic-bezier(1, -0.115, 0.975, 0.855); }
+
+.vs--open .vs__open-indicator {
+  transform: rotate(180deg) scale(1); }
+
+.vs--loading .vs__open-indicator {
+  opacity: 0; }
+
+/* Clear Button */
+.vs__clear {
+  fill: rgba(60, 60, 60, 0.5);
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 8px; }
+
+/* Dropdown Menu */
+.vs__dropdown-menu {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  top: calc(100% - 1px);
+  left: 0;
+  z-index: 1000;
+  padding: 5px 0;
+  margin: 0;
+  width: 100%;
+  max-height: 350px;
+  min-width: 160px;
+  overflow-y: auto;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(60, 60, 60, 0.26);
+  border-top-style: none;
+  border-radius: 0 0 4px 4px;
+  text-align: left;
+  list-style: none;
+  background: #fff; }
+
+.vs__no-options {
+  text-align: center; }
+
+/* List Items */
+.vs__dropdown-option {
+  line-height: 1.42857143;
+  /* Normalize line height */
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  color: #333;
+  /* Overrides most CSS frameworks */
+  white-space: nowrap;
+  cursor: pointer; }
+
+.vs__dropdown-option--highlight {
+  background: #5897fb;
+  color: #fff; }
+
+.vs__dropdown-option--deselect {
+  background: #fb5858;
+  color: #fff; }
+
+.vs__dropdown-option--disabled {
+  background: inherit;
+  color: rgba(60, 60, 60, 0.5);
+  cursor: inherit; }
+
+/* Selected Tags */
+.vs__selected {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 1px solid rgba(60, 60, 60, 0.26);
+  border-radius: 4px;
+  color: #333;
+  line-height: 1.4;
+  margin: 4px 2px 0px 2px;
+  padding: 0 0.25em;
+  z-index: 0; }
+
+.vs__deselect {
+  display: inline-flex;
+  appearance: none;
+  margin-left: 4px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  background: none;
+  fill: rgba(60, 60, 60, 0.5);
+  text-shadow: 0 1px 0 #fff; }
+
+/* States */
+.vs--single .vs__selected {
+  background-color: transparent;
+  border-color: transparent; }
+
+.vs--single.vs--open .vs__selected,
+.vs--single.vs--loading .vs__selected {
+  position: absolute;
+  opacity: .4; }
+
+.vs--single.vs--searching .vs__selected {
+  display: none; }
+
+/* Search Input */
+/**
+ * Super weird bug... If this declaration is grouped
+ * below, the cancel button will still appear in chrome.
+ * If it's up here on it's own, it'll hide it.
+ */
+.vs__search::-webkit-search-cancel-button {
+  display: none; }
+
+.vs__search::-webkit-search-decoration,
+.vs__search::-webkit-search-results-button,
+.vs__search::-webkit-search-results-decoration,
+.vs__search::-ms-clear {
+  display: none; }
+
+.vs__search,
+.vs__search:focus {
+  appearance: none;
+  line-height: 1.4;
+  font-size: 1em;
+  border: 1px solid transparent;
+  border-left: none;
+  outline: none;
+  margin: 4px 0 0 0;
+  padding: 0 7px;
+  background: none;
+  box-shadow: none;
+  width: 0;
+  max-width: 100%;
+  flex-grow: 1;
+  z-index: 1; }
+
+.vs__search::placeholder {
+  color: inherit; }
+
+/**
+    States
+ */
+.vs--unsearchable .vs__search {
+  opacity: 1; }
+
+.vs--unsearchable:not(.vs--disabled) .vs__search {
+  cursor: pointer; }
+
+.vs--single.vs--searching:not(.vs--open):not(.vs--loading) .vs__search {
+  opacity: .2; }
+
+/* Loading Spinner */
+.vs__spinner {
+  align-self: center;
+  opacity: 0;
+  font-size: 5px;
+  text-indent: -9999em;
+  overflow: hidden;
+  border-top: 0.9em solid rgba(100, 100, 100, 0.1);
+  border-right: 0.9em solid rgba(100, 100, 100, 0.1);
+  border-bottom: 0.9em solid rgba(100, 100, 100, 0.1);
+  border-left: 0.9em solid rgba(60, 60, 60, 0.45);
+  transform: translateZ(0);
+  animation: vSelectSpinner 1.1s infinite linear;
+  transition: opacity .1s; }
+
+.vs__spinner,
+.vs__spinner:after {
+  border-radius: 50%;
+  width: 5em;
+  height: 5em; }
+
+/* Loading Spinner States */
+.vs--loading .vs__spinner {
+  opacity: 1; }
+
+/**
+ * pretty-checkbox.css
+ *
+ * A pure CSS library to beautify checkbox and radio buttons
+ *
+ * Source: https://github.com/lokesh-coder/pretty-checkbox
+ * Demo: https://lokesh-coder.github.io/pretty-checkbox
+ *
+ * Copyright (c) 2017 Lokesh rajendran
+ */
+
+.pretty * {
+  box-sizing: border-box;
+}
+
+.pretty input:not([type='checkbox']):not([type='radio']) {
+  display: none;
+}
+
+.pretty {
+  position: relative;
+  display: inline-block;
+  margin-right: 1em;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.pretty input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 1em;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.pretty .state label {
+  position: initial;
+  display: inline-block;
+  font-weight: normal;
+  margin: 0;
+  text-indent: 1.5em;
+  min-width: calc(1em + 2px);
+}
+
+.pretty .state label:before,
+.pretty .state label:after {
+  content: '';
+  width: calc(1em + 2px);
+  height: calc(1em + 2px);
+  display: block;
+  box-sizing: border-box;
+  border-radius: 0;
+  border: 1px solid transparent;
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: calc((0% - (100% - 1em)) - 8%);
+  background-color: transparent;
+}
+
+.pretty .state label:before {
+  border-color: #bdc3c7;
+}
+
+.pretty .state.p-is-hover,
+.pretty .state.p-is-indeterminate {
+  display: none;
+}
+
+@-webkit-keyframes zoom {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+}
+
+@keyframes zoom {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+}
+
+@-webkit-keyframes tada {
+  0% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+    -webkit-transform: scale(7);
+    transform: scale(7);
+  }
+  38% {
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  55% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  72% {
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  81% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-transform: scale(1.24);
+    transform: scale(1.24);
+  }
+  89% {
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  95% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+  }
+  100% {
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes tada {
+  0% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+    -webkit-transform: scale(7);
+    transform: scale(7);
+  }
+  38% {
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  55% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  72% {
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  81% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-transform: scale(1.24);
+    transform: scale(1.24);
+  }
+  89% {
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  95% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+  }
+  100% {
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes jelly {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(0.85, 1.15, 1);
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes jelly {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(0.85, 1.15, 1);
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateZ(-200px) rotate(-45deg);
+    transform: translateZ(-200px) rotate(-45deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateZ(0) rotate(0);
+    transform: translateZ(0) rotate(0);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateZ(-200px) rotate(-45deg);
+    transform: translateZ(-200px) rotate(-45deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateZ(0) rotate(0);
+    transform: translateZ(0) rotate(0);
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0px 0px 0px 0px #bdc3c7;
+  }
+  100% {
+    box-shadow: 0px 0px 0px 1.5em rgba(189, 195, 199, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0px 0px 0px 0px #bdc3c7;
+  }
+  100% {
+    box-shadow: 0px 0px 0px 1.5em rgba(189, 195, 199, 0);
+  }
+}
+
+.pretty.p-default.p-fill .state label:after {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.pretty.p-default .state label:after {
+  -webkit-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+.pretty.p-default input:checked ~ .state label:after {
+  background-color: #bdc3c7 !important;
+}
+
+.pretty.p-default.p-thick .state label:before,
+.pretty.p-default.p-thick .state label:after {
+  border-width: calc(1em / 7);
+}
+
+.pretty.p-default.p-thick .state label:after {
+  -webkit-transform: scale(0.4) !important;
+  -ms-transform: scale(0.4) !important;
+  transform: scale(0.4) !important;
+}
+
+.pretty.p-icon .state .icon {
+  position: absolute;
+  font-size: 1em;
+  width: calc(1em + 2px);
+  height: calc(1em + 2px);
+  left: 0;
+  z-index: 1;
+  text-align: center;
+  line-height: normal;
+  top: calc((0% - (100% - 1em)) - 8%);
+  border: 1px solid transparent;
+  opacity: 0;
+}
+
+.pretty.p-icon .state .icon:before {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 1;
+}
+
+.pretty.p-icon input:checked ~ .state .icon {
+  opacity: 1;
+}
+
+.pretty.p-icon input:checked ~ .state label:before {
+  border-color: #5a656b;
+}
+
+.pretty.p-svg .state .svg {
+  position: absolute;
+  font-size: 1em;
+  width: calc(1em + 2px);
+  height: calc(1em + 2px);
+  left: 0;
+  z-index: 1;
+  text-align: center;
+  line-height: normal;
+  top: calc((0% - (100% - 1em)) - 8%);
+  border: 1px solid transparent;
+  opacity: 0;
+}
+
+.pretty.p-svg .state svg {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 1;
+}
+
+.pretty.p-svg input:checked ~ .state .svg {
+  opacity: 1;
+}
+
+.pretty.p-image .state img {
+  opacity: 0;
+  position: absolute;
+  width: calc(1em + 2px);
+  height: calc(1em + 2px);
+  top: 0;
+  top: calc((0% - (100% - 1em)) - 8%);
+  left: 0;
+  z-index: 0;
+  text-align: center;
+  line-height: normal;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.pretty.p-image input:checked ~ .state img {
+  opacity: 1;
+}
+
+.pretty.p-switch input {
+  min-width: 2em;
+}
+
+.pretty.p-switch .state {
+  position: relative;
+}
+
+.pretty.p-switch .state:before {
+  content: '';
+  border: 1px solid #bdc3c7;
+  border-radius: 60px;
+  width: 2em;
+  box-sizing: unset;
+  height: calc(1em + 2px);
+  position: absolute;
+  top: 0;
+  top: calc((0% - (100% - 1em)) - 16%);
+  z-index: 0;
+  transition: all 0.5s ease;
+}
+
+.pretty.p-switch .state label {
+  text-indent: 2.5em;
+}
+
+.pretty.p-switch .state label:before,
+.pretty.p-switch .state label:after {
+  transition: all 0.5s ease;
+  border-radius: 100%;
+  left: 0;
+  border-color: transparent;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.pretty.p-switch .state label:after {
+  background-color: #bdc3c7 !important;
+}
+
+.pretty.p-switch input:checked ~ .state:before {
+  border-color: #5a656b;
+}
+
+.pretty.p-switch input:checked ~ .state label:before {
+  opacity: 0;
+}
+
+.pretty.p-switch input:checked ~ .state label:after {
+  background-color: #5a656b !important;
+  left: 1em;
+}
+
+.pretty.p-switch.p-fill input:checked ~ .state:before {
+  border-color: #5a656b;
+  background-color: #5a656b !important;
+}
+
+.pretty.p-switch.p-fill input:checked ~ .state label:before {
+  opacity: 0;
+}
+
+.pretty.p-switch.p-fill input:checked ~ .state label:after {
+  background-color: #fff !important;
+  left: 1em;
+}
+
+.pretty.p-switch.p-slim .state:before {
+  height: 0.1em;
+  background: #bdc3c7 !important;
+  top: calc(50% - 0.1em);
+}
+
+.pretty.p-switch.p-slim input:checked ~ .state:before {
+  border-color: #5a656b;
+  background-color: #5a656b !important;
+}
+
+.pretty.p-has-hover input:hover ~ .state:not(.p-is-hover) {
+  display: none;
+}
+
+.pretty.p-has-hover input:hover ~ .state.p-is-hover {
+  display: block;
+}
+
+.pretty.p-has-hover input:hover ~ .state.p-is-hover .icon {
+  display: block;
+}
+
+.pretty.p-has-focus input:focus ~ .state label:before {
+  box-shadow: 0px 0px 3px 0px #bdc3c7;
+}
+
+.pretty.p-has-indeterminate input[type='checkbox']:indeterminate ~ .state:not(.p-is-indeterminate) {
+  display: none;
+}
+
+.pretty.p-has-indeterminate input[type='checkbox']:indeterminate ~ .state.p-is-indeterminate {
+  display: block;
+}
+
+.pretty.p-has-indeterminate input[type='checkbox']:indeterminate ~ .state.p-is-indeterminate .icon {
+  display: block;
+  opacity: 1;
+}
+
+.pretty.p-toggle .state.p-on {
+  opacity: 0;
+  display: none;
+}
+
+.pretty.p-toggle .state.p-off,
+.pretty.p-toggle .state .icon,
+.pretty.p-toggle .state .svg,
+.pretty.p-toggle .state img {
+  opacity: 1;
+  display: inherit;
+}
+
+.pretty.p-toggle .state.p-off .icon {
+  color: #bdc3c7;
+}
+
+.pretty.p-toggle input:checked ~ .state.p-on {
+  opacity: 1;
+  display: inherit;
+}
+
+.pretty.p-toggle input:checked ~ .state.p-off {
+  opacity: 0;
+  display: none;
+}
+
+.pretty.p-plain input:checked ~ .state label:before,
+.pretty.p-plain.p-toggle .state label:before {
+  content: none;
+}
+
+.pretty.p-plain.p-plain .icon {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.pretty.p-round .state label:before,
+.pretty.p-round .state label:after {
+  border-radius: 100%;
+}
+
+.pretty.p-round.p-icon .state .icon {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.pretty.p-round.p-icon .state .icon:before {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.pretty.p-curve .state label:before,
+.pretty.p-curve .state label:after {
+  border-radius: 20%;
+}
+
+.pretty.p-smooth label:before,
+.pretty.p-smooth label:after,
+.pretty.p-smooth .icon,
+.pretty.p-smooth .svg {
+  transition: all 0.5s ease;
+}
+
+.pretty.p-smooth input:checked + .state label:after {
+  transition: all 0.3s ease;
+}
+
+.pretty.p-smooth input:checked + .state .icon,
+.pretty.p-smooth input:checked + .state .svg,
+.pretty.p-smooth input:checked + .state img {
+  -webkit-animation: zoom 0.2s ease;
+  animation: zoom 0.2s ease;
+}
+
+.pretty.p-smooth.p-default input:checked + .state label:after {
+  -webkit-animation: zoom 0.2s ease;
+  animation: zoom 0.2s ease;
+}
+
+.pretty.p-smooth.p-plain input:checked + .state label:before {
+  content: '';
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  transition: all 0.5s ease;
+}
+
+.pretty.p-tada:not(.p-default) input:checked + .state .icon,
+.pretty.p-tada:not(.p-default) input:checked + .state .svg,
+.pretty.p-tada:not(.p-default) input:checked + .state img,
+.pretty.p-tada:not(.p-default) input:checked + .state label:before,
+.pretty.p-tada:not(.p-default) input:checked + .state label:after {
+  -webkit-animation: tada 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1 alternate;
+  animation: tada 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1 alternate;
+  opacity: 1;
+}
+
+.pretty.p-jelly:not(.p-default) input:checked + .state .icon,
+.pretty.p-jelly:not(.p-default) input:checked + .state .svg,
+.pretty.p-jelly:not(.p-default) input:checked + .state img,
+.pretty.p-jelly:not(.p-default) input:checked + .state label:before,
+.pretty.p-jelly:not(.p-default) input:checked + .state label:after {
+  -webkit-animation: jelly 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  animation: jelly 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  opacity: 1;
+}
+
+.pretty.p-jelly:not(.p-default) input:checked + .state label:before {
+  border-color: transparent;
+}
+
+.pretty.p-rotate:not(.p-default) input:checked ~ .state .icon,
+.pretty.p-rotate:not(.p-default) input:checked ~ .state .svg,
+.pretty.p-rotate:not(.p-default) input:checked ~ .state img,
+.pretty.p-rotate:not(.p-default) input:checked ~ .state label:before,
+.pretty.p-rotate:not(.p-default) input:checked ~ .state label:after {
+  -webkit-animation: rotate 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  animation: rotate 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  opacity: 1;
+}
+
+.pretty.p-rotate:not(.p-default) input:checked ~ .state label:before {
+  border-color: transparent;
+}
+
+.pretty.p-pulse:not(.p-switch) input:checked ~ .state label:before {
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+}
+
+.pretty input[disabled] {
+  cursor: not-allowed;
+  display: none;
+}
+
+.pretty input[disabled] ~ * {
+  opacity: .5;
+}
+
+.pretty.p-locked input {
+  display: none;
+  cursor: not-allowed;
+}
+
+.pretty input:checked ~ .state.p-primary label:after,
+.pretty.p-toggle .state.p-primary label:after {
+  background-color: #428bca !important;
+}
+
+.pretty input:checked ~ .state.p-primary .icon,
+.pretty input:checked ~ .state.p-primary .svg,
+.pretty.p-toggle .state.p-primary .icon,
+.pretty.p-toggle .state.p-primary .svg {
+  color: #fff;
+  stroke: #fff;
+}
+
+.pretty input:checked ~ .state.p-primary-o label:before,
+.pretty.p-toggle .state.p-primary-o label:before {
+  border-color: #428bca;
+}
+
+.pretty input:checked ~ .state.p-primary-o label:after,
+.pretty.p-toggle .state.p-primary-o label:after {
+  background-color: transparent;
+}
+
+.pretty input:checked ~ .state.p-primary-o .icon,
+.pretty input:checked ~ .state.p-primary-o .svg,
+.pretty input:checked ~ .state.p-primary-o svg,
+.pretty.p-toggle .state.p-primary-o .icon,
+.pretty.p-toggle .state.p-primary-o .svg,
+.pretty.p-toggle .state.p-primary-o svg {
+  color: #428bca;
+  stroke: #428bca;
+}
+
+.pretty.p-default:not(.p-fill) input:checked ~ .state.p-primary-o label:after {
+  background-color: #428bca !important;
+}
+
+.pretty.p-switch input:checked ~ .state.p-primary:before {
+  border-color: #428bca;
+}
+
+.pretty.p-switch.p-fill input:checked ~ .state.p-primary:before {
+  background-color: #428bca !important;
+}
+
+.pretty.p-switch.p-slim input:checked ~ .state.p-primary:before {
+  border-color: #245682;
+  background-color: #245682 !important;
+}
+
+.pretty input:checked ~ .state.p-info label:after,
+.pretty.p-toggle .state.p-info label:after {
+  background-color: #5bc0de !important;
+}
+
+.pretty input:checked ~ .state.p-info .icon,
+.pretty input:checked ~ .state.p-info .svg,
+.pretty.p-toggle .state.p-info .icon,
+.pretty.p-toggle .state.p-info .svg {
+  color: #fff;
+  stroke: #fff;
+}
+
+.pretty input:checked ~ .state.p-info-o label:before,
+.pretty.p-toggle .state.p-info-o label:before {
+  border-color: #5bc0de;
+}
+
+.pretty input:checked ~ .state.p-info-o label:after,
+.pretty.p-toggle .state.p-info-o label:after {
+  background-color: transparent;
+}
+
+.pretty input:checked ~ .state.p-info-o .icon,
+.pretty input:checked ~ .state.p-info-o .svg,
+.pretty input:checked ~ .state.p-info-o svg,
+.pretty.p-toggle .state.p-info-o .icon,
+.pretty.p-toggle .state.p-info-o .svg,
+.pretty.p-toggle .state.p-info-o svg {
+  color: #5bc0de;
+  stroke: #5bc0de;
+}
+
+.pretty.p-default:not(.p-fill) input:checked ~ .state.p-info-o label:after {
+  background-color: #5bc0de !important;
+}
+
+.pretty.p-switch input:checked ~ .state.p-info:before {
+  border-color: #5bc0de;
+}
+
+.pretty.p-switch.p-fill input:checked ~ .state.p-info:before {
+  background-color: #5bc0de !important;
+}
+
+.pretty.p-switch.p-slim input:checked ~ .state.p-info:before {
+  border-color: #2390b0;
+  background-color: #2390b0 !important;
+}
+
+.pretty input:checked ~ .state.p-success label:after,
+.pretty.p-toggle .state.p-success label:after {
+  background-color: #5cb85c !important;
+}
+
+.pretty input:checked ~ .state.p-success .icon,
+.pretty input:checked ~ .state.p-success .svg,
+.pretty.p-toggle .state.p-success .icon,
+.pretty.p-toggle .state.p-success .svg {
+  color: #fff;
+  stroke: #fff;
+}
+
+.pretty input:checked ~ .state.p-success-o label:before,
+.pretty.p-toggle .state.p-success-o label:before {
+  border-color: #5cb85c;
+}
+
+.pretty input:checked ~ .state.p-success-o label:after,
+.pretty.p-toggle .state.p-success-o label:after {
+  background-color: transparent;
+}
+
+.pretty input:checked ~ .state.p-success-o .icon,
+.pretty input:checked ~ .state.p-success-o .svg,
+.pretty input:checked ~ .state.p-success-o svg,
+.pretty.p-toggle .state.p-success-o .icon,
+.pretty.p-toggle .state.p-success-o .svg,
+.pretty.p-toggle .state.p-success-o svg {
+  color: #5cb85c;
+  stroke: #5cb85c;
+}
+
+.pretty.p-default:not(.p-fill) input:checked ~ .state.p-success-o label:after {
+  background-color: #5cb85c !important;
+}
+
+.pretty.p-switch input:checked ~ .state.p-success:before {
+  border-color: #5cb85c;
+}
+
+.pretty.p-switch.p-fill input:checked ~ .state.p-success:before {
+  background-color: #5cb85c !important;
+}
+
+.pretty.p-switch.p-slim input:checked ~ .state.p-success:before {
+  border-color: #357935;
+  background-color: #357935 !important;
+}
+
+.pretty input:checked ~ .state.p-warning label:after,
+.pretty.p-toggle .state.p-warning label:after {
+  background-color: #f0ad4e !important;
+}
+
+.pretty input:checked ~ .state.p-warning .icon,
+.pretty input:checked ~ .state.p-warning .svg,
+.pretty.p-toggle .state.p-warning .icon,
+.pretty.p-toggle .state.p-warning .svg {
+  color: #fff;
+  stroke: #fff;
+}
+
+.pretty input:checked ~ .state.p-warning-o label:before,
+.pretty.p-toggle .state.p-warning-o label:before {
+  border-color: #f0ad4e;
+}
+
+.pretty input:checked ~ .state.p-warning-o label:after,
+.pretty.p-toggle .state.p-warning-o label:after {
+  background-color: transparent;
+}
+
+.pretty input:checked ~ .state.p-warning-o .icon,
+.pretty input:checked ~ .state.p-warning-o .svg,
+.pretty input:checked ~ .state.p-warning-o svg,
+.pretty.p-toggle .state.p-warning-o .icon,
+.pretty.p-toggle .state.p-warning-o .svg,
+.pretty.p-toggle .state.p-warning-o svg {
+  color: #f0ad4e;
+  stroke: #f0ad4e;
+}
+
+.pretty.p-default:not(.p-fill) input:checked ~ .state.p-warning-o label:after {
+  background-color: #f0ad4e !important;
+}
+
+.pretty.p-switch input:checked ~ .state.p-warning:before {
+  border-color: #f0ad4e;
+}
+
+.pretty.p-switch.p-fill input:checked ~ .state.p-warning:before {
+  background-color: #f0ad4e !important;
+}
+
+.pretty.p-switch.p-slim input:checked ~ .state.p-warning:before {
+  border-color: #c77c11;
+  background-color: #c77c11 !important;
+}
+
+.pretty input:checked ~ .state.p-danger label:after,
+.pretty.p-toggle .state.p-danger label:after {
+  background-color: #d9534f !important;
+}
+
+.pretty input:checked ~ .state.p-danger .icon,
+.pretty input:checked ~ .state.p-danger .svg,
+.pretty.p-toggle .state.p-danger .icon,
+.pretty.p-toggle .state.p-danger .svg {
+  color: #fff;
+  stroke: #fff;
+}
+
+.pretty input:checked ~ .state.p-danger-o label:before,
+.pretty.p-toggle .state.p-danger-o label:before {
+  border-color: #d9534f;
+}
+
+.pretty input:checked ~ .state.p-danger-o label:after,
+.pretty.p-toggle .state.p-danger-o label:after {
+  background-color: transparent;
+}
+
+.pretty input:checked ~ .state.p-danger-o .icon,
+.pretty input:checked ~ .state.p-danger-o .svg,
+.pretty input:checked ~ .state.p-danger-o svg,
+.pretty.p-toggle .state.p-danger-o .icon,
+.pretty.p-toggle .state.p-danger-o .svg,
+.pretty.p-toggle .state.p-danger-o svg {
+  color: #d9534f;
+  stroke: #d9534f;
+}
+
+.pretty.p-default:not(.p-fill) input:checked ~ .state.p-danger-o label:after {
+  background-color: #d9534f !important;
+}
+
+.pretty.p-switch input:checked ~ .state.p-danger:before {
+  border-color: #d9534f;
+}
+
+.pretty.p-switch.p-fill input:checked ~ .state.p-danger:before {
+  background-color: #d9534f !important;
+}
+
+.pretty.p-switch.p-slim input:checked ~ .state.p-danger:before {
+  border-color: #a02622;
+  background-color: #a02622 !important;
+}
+
+.pretty.p-bigger label:before,
+.pretty.p-bigger label:after,
+.pretty.p-bigger .icon,
+.pretty.p-bigger .svg,
+.pretty.p-bigger .img {
+  font-size: 1.2em !important;
+  top: calc((0% - (100% - 1em)) - 35%) !important;
+}
+
+.pretty.p-bigger label {
+  text-indent: 1.7em;
+}
+
+@media print {
+  .pretty .state:before,
+  .pretty .state label:before,
+  .pretty .state label:after,
+  .pretty .state .icon {
+    color-adjust: exact;
+    /* stylelint-disable */
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+
+/*# sourceMappingURL=2.1f3567c6c70692b46081.css.map*/

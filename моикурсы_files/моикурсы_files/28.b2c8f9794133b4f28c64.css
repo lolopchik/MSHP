@@ -1,0 +1,31 @@
+
+.dropdown-form .dropdown-menu {
+  color: #0e0e0e;
+  min-width: 300px;
+}
+
+
+.unit_menu_lock_icon {
+  font-size: 20px
+}
+
+.unit-menu__disabled_heading > .unit-menu-item__heading {
+  background-color: #e7eaec;
+  color: #888888;
+}
+.panel.stripped_disabled > .panel-heading {
+  color: #888888;
+  background: repeating-linear-gradient(45deg, #e1e1e1, #e1e1e1 10px, #eeeeee 10px, #eeeeee 20px);
+}
+.unit_menu__text_muted > span {
+  color: #888888;
+}
+.yandex_unit_menu {
+  line-height: 18px;
+}
+.yandex-tabs {
+  margin-left: 15px;
+}
+
+
+/*# sourceMappingURL=28.b2c8f9794133b4f28c64.css.map*/

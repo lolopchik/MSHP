@@ -1,0 +1,133 @@
+
+.shp-file-name{
+    max-width: 90% !important;
+}
+.file-thumbnail {
+    /*width: 180px;*/
+    min-height: 100px;
+    padding: 8px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  @media (max-width: 767px) {*/
+/*    .material__input{*/
+/*      width: 40px;*/
+/*    }*/
+/*  }*/
+/*  @media (min-width: 768px) and (max-width: 979px) {*/
+/*    .material__input{*/
+/*      width: 60px !important;*/
+/*    }*/
+/*  }*/
+
+/*  @media (min-width: 1200px) {*/
+/*    .material__input{*/
+/*      width: auto;*/
+/*    }*/
+/*  }*/
+.material__input{
+      /*width: 140px !important;*/
+      width: 100% !important;
+}
+
+  /*@media (max-width: 1366px) {*/
+  /*  .material__input{*/
+  /*    !*width: 140px !important;*!*/
+  /*    width: 100% !important;*/
+  /*  }*/
+  /*}*/
+.instance_name_edit__input {
+    width: 65%;
+}
+.instance_name_edit__icons {
+    width: 35%;
+}
+.instance_name_edit__field {
+    margin-left: 13px;
+}
+
+
+/*# sourceMappingURL=59.180b7f1b9a7816355feb.css.map*/

@@ -1,0 +1,80 @@
+
+.CodeMirror-code {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.field-mutiple-check .dropdown-menu .glyphicon {
+  margin-top: 4px;
+}
+.field-mutiple-check b {
+  font-weight: normal;
+}
+
+.pretty.m-r-xs {
+  margin-right: 5px;
+}
+.field_pretty_radio__wrap {
+  white-space: normal !important;
+}
+
+.form-horizontal .radio-list {
+  padding-top: 7px;
+}
+
+.vue-form-generator .field-input .wrapper {
+  width: 100%;
+}
+.vue-form-generator .field-input input[type="radio"] {
+  width: 100%;
+}
+.vue-form-generator .field-input input[type="color"] {
+  width: 60px;
+}
+.vue-form-generator .field-input input[type="range"] {
+  padding: 0;
+}
+.vue-form-generator .field-input .helper {
+  margin: auto 0.5em;
+}
+
+/* for block of numbers */
+.hljs-ln td.hljs-ln-numbers {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: right;
+  color: #ccc;
+  border-right: 1px solid #CCC;
+  vertical-align: top;
+  padding-right: 5px;
+  min-width: 32px;
+  /* your custom style here */
+}
+
+/* for block of code */
+.hljs-ln .hljs-ln-code {
+  padding-left: 5px;
+}
+
+.attempts-scroll {
+    padding-bottom: 0;
+  }
+.attempts-list {
+  align-items: center;
+}
+.scroll-item {
+  vertical-align: top;
+}
+.scroll-item ~ .scroll-item {
+  margin-left: 15px;
+}
+
+.shp-padding-top {
+  padding-top: 10px;
+}
+
+
+/*# sourceMappingURL=0.e08e6f6905d6fc01325c.css.map*/
