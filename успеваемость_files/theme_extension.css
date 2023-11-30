@@ -1,0 +1,120 @@
+.docs pre {
+    background: transparent;
+    border-radius: 0;
+    word-break: normal;
+    word-wrap: normal;
+}
+.docs.css-reset .wy-nav-content {
+    margin:0;background:#ffffff
+}
+
+.css-reset.docs div {
+    font-size: 16px;
+}
+
+.wy-nav-side .affix {
+    position: inherit;
+}
+
+.docs.css-reset .wy-nav-side {
+    margin-top: 50px;
+    background-color: #f4f4f4;
+}
+
+.right-side.large-right-side {
+    margin-left: 300px;
+}
+
+.left-side.large-left-side {
+   width: 300px;
+}
+
+.large-left-side .menu_trigger {
+    left: 277px
+}
+
+.docs.css-reset .wy-menu-vertical a {
+    color: #222
+}
+
+.docs.css-reset .wy-menu-vertical a:hover {
+    background-color:#2980B9;
+    color:#fff
+}
+
+.docs.css-reset .wy-side-nav-search {
+    color: #222
+}
+
+.modal .docs.css-reset .wy-nav-side {
+    position: initial;
+    margin-top: 0;
+}
+
+.modal .docs.css-reset .wy-nav-content {
+    padding-left: 15px;
+    padding-right: 4px;
+}
+
+.modal .left-side {
+    position: absolute;
+}
+
+.docs.css-reset .wy-grid-for-nav {
+    position: static;
+}
+
+.modal .left-side, .modal .right-side {
+    display: table-cell;
+    position: static;
+    vertical-align: top;
+}
+
+.modal .right-side {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .modal .left-side, .modal .right-side {
+        display: block;
+        position: inherit;
+    }
+
+    .modal .right-side {
+        width: 100%;
+    }
+
+    .left-side.large-left-side {
+       width: 100%;
+    }
+    .right-side.large-right-side {
+        margin-left: 0;
+    }
+    .docs.css-reset .wy-nav-side {
+        width: auto;
+    }
+
+}
+.docs.css-reset .rst-versions .rst-current-version {
+    line-height: 1;
+}
+
+.modal .docs.css-reset .rst-versions {
+    position: absolute;
+}
+
+.docs.css-reset th {
+    font-weight: bold;
+    border: 1px solid #e1e4e5;
+}
+
+.docs.css-reset table.docutils.field-list th {
+    border-width: 0;
+}
+.modal .docs.css-reset .wy-side-scroll {
+    overflow: auto;
+}
+
+.docs.css-reset .wy-nav-side {
+    left: 0
+}

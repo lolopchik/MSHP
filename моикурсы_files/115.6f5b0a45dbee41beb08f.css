@@ -1,0 +1,18 @@
+
+.payment_modal__button {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-weight: normal;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 14px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.payment_modal__active_button {
+  background: #EEEEEE;
+}
+
+
+/*# sourceMappingURL=115.6f5b0a45dbee41beb08f.css.map*/

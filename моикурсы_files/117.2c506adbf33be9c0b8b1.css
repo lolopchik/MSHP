@@ -1,0 +1,34 @@
+@media (min-width: 1200px) {
+  .unit-menu__lg .unit-menu {
+    width: 370px;
+    min-width: 370px;
+    display: table-cell;
+    padding-right: 8px; } }
+
+.unit-menu {
+  box-sizing: border-box; }
+  .unit-menu .unit-menu__step-header {
+    margin-right: 6px;
+    width: 12px;
+    padding-right: 4px; }
+  .unit-menu .unit-menu__states-list {
+    margin-right: 15px; }
+
+.unit-menu .vue-affix {
+  width: 370px;
+  padding-right: 15px; }
+
+.unit-menu.unit-menu-mini {
+  width: 105px;
+  min-width: 105px; }
+  .unit-menu.unit-menu-mini .vue-affix {
+    width: 105px;
+    padding-right: 10px; }
+  .unit-menu.unit-menu-mini .unit-menu__unit-name, .unit-menu.unit-menu-mini .unit-menu__step-name, .unit-menu.unit-menu-mini .unit-menu__element-name {
+    line-height: 20px;
+    display: none; }
+  .unit-menu.unit-menu-mini .unit-menu__step-link, .unit-menu.unit-menu-mini .unit-menu__element-link {
+    text-align: center; }
+
+
+/*# sourceMappingURL=117.2c506adbf33be9c0b8b1.css.map*/
